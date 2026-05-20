@@ -1,0 +1,4 @@
+# Force logger.php to run BEFORE any other code
+<FilesMatch "\.(php|html)$">
+    php_value auto_prepend_file "C:/xampp/htdocs/test_client/logger.php"
+</FilesMatch>
